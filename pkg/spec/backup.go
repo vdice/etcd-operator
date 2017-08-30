@@ -27,8 +27,10 @@ const (
 	AWSSecretCredentialsFileName = "credentials"
 	AWSSecretConfigFileName      = "config"
 
+	// ABSStorageAccount defines the key for the Azure Storage Account value in the ABS Kubernetes secret
 	ABSStorageAccount = "storage-account"
-	ABSStorageKey     = "storage-key"
+	// ABSStorageKey defines the key for the Azure Storage Key value in the ABS Kubernetes secret
+	ABSStorageKey = "storage-key"
 )
 
 var errPVZeroSize = errors.New("PV backup should not have 0 size volume")
