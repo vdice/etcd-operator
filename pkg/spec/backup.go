@@ -26,6 +26,9 @@ const (
 
 	AWSSecretCredentialsFileName = "credentials"
 	AWSSecretConfigFileName      = "config"
+
+	ABSStorageAccount = "storage-account"
+	ABSStorageKey     = "storage-key"
 )
 
 var errPVZeroSize = errors.New("PV backup should not have 0 size volume")
